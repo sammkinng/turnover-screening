@@ -93,7 +93,7 @@ const ProtectedpagePage: React.FC<{ user: number, categories: Category[], select
               nextClassName="text-black-900"
               pageCount={pageCount}
               previousLabel="<"
-              renderOnZeroPageCount={null}
+              // renderOnZeroPageCount={null}
             />
           </Text>
         </div>
