@@ -74,7 +74,7 @@ export default function SignUpPage() {
                         })
                         .catch((e) => {
                           console.log(e)
-                          setError(e)
+                          setError(e.message)
                           setTimeout(() => setError(""), 3000)
                         })
                     } else {

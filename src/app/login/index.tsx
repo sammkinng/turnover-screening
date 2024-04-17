@@ -52,7 +52,7 @@ export default function LoginPage() {
                         localStorage.setItem('user', JSON.stringify(user.id));
                       })
                       .catch((e) => {
-                        setError(e)
+                        setError(e.message)
                         setTimeout(() => setError(""), 3000)
                       })
                   }
